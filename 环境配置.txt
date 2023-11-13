@@ -1,0 +1,13 @@
+conda create -n RTDETR python=3.10
+conda activate RTDETR
+## pip install ultralytics
+
+conda install --use-local D:\Anaconda\pkgs\pytorch-1.12.1-py3.8_cuda11.3_cudnn8_0.tar.bz2
+pip install -r requirements.txt  -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install timm thop efficientnet_pytorch einops -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install -U openmim -i https://pypi.tuna.tsinghua.edu.cn/simple
+mim install mmengine ## pip install mmengine -i https://pypi.tuna.tsinghua.edu.cn/simple
+mim install "mmcv>=2.0.0" ##  pip install mmcv>=2.0.0 -i https://download.openmmlab.com/mmcv/dist/cu113/torch1.12.0/index.html
+pip install E:\download\mmcv-2.0.0-cp38-cp38-win_amd64.whl
+pip install grad-cam -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install pycocotools -i https://pypi.tuna.tsinghua.edu.cn/simple
